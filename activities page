@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activities - Jaldurg Resort</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f1f8e9;
+            margin: 0;
+        }
+        header, footer {
+            background-color: #558b2f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h2, h3 {
+            text-align: center;
+            color: #33691e;
+            margin-top: 20px;
+        }
+        .section {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        ul {
+            list-style-type: "🌟 ";
+            padding-left: 30px;
+            font-size: 18px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>Indoor & Outdoor Activities</header>
+
+<h2>Fun, Games & Relaxation at Jaldurg</h2>
+
+<div class="section">
+    <h3>🔥 Evening Fun:</h3>
+    <ul>
+        <li>Music & Bonfire</li>
+        <li>Limited Barbecue (Tent Stay Only)</li>
+    </ul>
+
+    <h3>🏞️ Outdoor Activities:</h3>
+    <ul>
+        <li>Badminton</li>
+        <li>Volleyball</li>
+        <li>Kick the Goal</li>
+        <li>Angry Bird Game</li>
+        <li>Rifle Shooting</li>
+        <li>Obstacle Course</li>
+        <li>Inflatable Adventure</li>
+        <li>cricket</li>
+    </ul>
+
+    <h3>🏡 Indoor Activities:</h3>
+    <ul>
+        <li>Carrom</li>
+        <li>Chess</li>
+        <li>Group Games</li>
+    </ul>
+</div>
+
+<h2>📸 Activity Gallery</h2>
+
+<div class="gallery">
+    <!-- Add your 15 activity images -->
+    <img src="activity1.jpg" alt="Activity 1">
+    <img src="activity2.jpg" alt="Activity 2">
+    <img src="activity3.jpg" alt="Activity 3">
+    <img src="activity4.jpg" alt="Activity 4">
+    <img src="activity5.jpg" alt="Activity 5">
+    <img src="activity6.jpg" alt="Activity 6">
+    <img src="activity7.jpg" alt="Activity 7">
+    <img src="activity8.jpg" alt="Activity 8">
+    <img src="activity9.jpg" alt="Activity 9">
+    <img src="activity10.jpg" alt="Activity 10">
+    <img src="activity11.jpg" alt="Activity 11">
+    <img src="activity12.jpg" alt="Activity 12">
+    <img src="activity13.jpg" alt="Activity 13">
+</div>
+
+<footer>© 2025 Jaldurg Agro Resort</footer>
+
+</body>
+</html>
