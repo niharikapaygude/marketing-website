@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant View - Jaldurg Resort</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #e3f2fd;
+            margin: 0;
+        }
+        header, footer {
+            background-color: #01579b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            color: #0277bd;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>Restaurant View</header>
+
+<h2>Our Scenic Restaurant – Outdoor Gallery</h2>
+
+<div class="gallery">
+    <!-- Repeat this line 29 times by just changing the number -->
+    <img src="restaurant1.jpg" alt="Restaurant View 1">
+    <img src="restaurant2.jpg" alt="Restaurant View 2">
+    <img src="restaurant3.jpg" alt="Restaurant View 3">
+    <img src="restaurant4.jpg" alt="Restaurant View 4">
+    <img src="restaurant5.jpg" alt="Restaurant View 5">
+    <img src="restaurant6.jpg" alt="Restaurant View 6">
+    <img src="restaurant7.jpg" alt="Restaurant View 7">
+    <img src="restaurant8.jpg" alt="Restaurant View 8">
+    <img src="restaurant9.jpg" alt="Restaurant View 9">
+    <img src="restaurant10.jpg" alt="Restaurant View 10">
+    <img src="restaurant11.jpg" alt="Restaurant View 11">
+    <img src="restaurant12.jpg" alt="Restaurant View 12">
+    <img src="restaurant13.jpg" alt="Restaurant View 13">
+    <img src="restaurant14.jpg" alt="Restaurant View 14">
+    <img src="restaurant15.jpg" alt="Restaurant View 15">
+    <img src="restaurant16.jpg" alt="Restaurant View 16">
+    <img src="restaurant17.jpg" alt="Restaurant View 17">
+    <img src="restaurant18.jpg" alt="Restaurant View 18">
+    
+</div>
+
+<footer>© 2025 Jaldurg Agro Resort</footer>
+
+</body>
+</html>
