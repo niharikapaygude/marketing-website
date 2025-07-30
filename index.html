@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaldurg Agro Resort</title>
+    <style>
+        :root {
+            --main-color: #558b2f;
+            --light-bg: #f3f9f1;
+            --accent-color: #c5e1a5;
+            --hover-color: #aed581;
+            --text-color: #2e7d32;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--main-color);
+            color: white;
+            padding: 30px 20px;
+            font-size: 28px;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 30px 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .option {
+            background-color: var(--accent-color);
+            padding: 18px;
+            border-radius: 12px;
+            font-size: 18px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, background-color 0.3s;
+        }
+
+        .option:hover {
+            background-color: var(--hover-color);
+            transform: scale(1.03);
+        }
+
+        footer {
+            background-color: #33691e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        @media screen and (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .option {
+                flex: 1 1 40%;
+                max-width: 45%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>Welcome to Jaldurg Agro Resort</header>
+
+    <div class="container">
+        <div class="option" onclick="location.href='package.html'">📦 Package Details</div>
+        <div class="option" onclick="location.href='rooms.html'">🛏️ Rooms - Photos & Videos</div>
+        <div class="option" onclick="location.href='food.html'">🍛 Authentic Food Gallery</div>
+        <div class="option" onclick="location.href='restaurant.html'">🏞️ Restaurant Outside View</div>
+         <div class="option" onclick="location.href='activities.html'">🏏 Indoor & Outdoor Activities</div>
+    </div>
+
+    <footer>© 2025 Jaldurg Agro Resort | Designed with love</footer>
+
+</body>
+</html>
