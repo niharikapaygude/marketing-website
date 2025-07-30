@@ -18,7 +18,7 @@ This site showcases:
 - Hosted via GitHub Pages
 
 ## 🔗 Live Preview
-[https://yourusername.github.io/jaldurg-website](https://yourusername.github.io/jaldurg-website)
+[[https://yourusername.github.io/jaldurg-website](https://yourusername.github.io/jaldurg-website)](https://niharikapaygude.github.io/marketing-website/)
 
 > Replace `yourusername` with your GitHub username
 
